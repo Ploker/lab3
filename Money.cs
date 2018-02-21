@@ -8,4 +8,5 @@ class Money
     public string ToString(){
         return money + "$";
     }
+    
 }
