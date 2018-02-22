@@ -12,4 +12,8 @@ class BCard
     public string ToString(){
         return card + "$";
     }
+
+	public string ToInt(){
+        return card + "$";
+    }
 }
