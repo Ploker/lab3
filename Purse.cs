@@ -2,7 +2,10 @@ class Purse
 {
     static void Main(string[] args)
     {
-        BCard bc = new BCard();
-	bc.numberOfCard();    
+        public BCard bc = new BCard();
+	    bc.numberOfCard();  
+
+        public Money money = new Money();
+        console.WriteLine(money.ToString());
     }
 }
